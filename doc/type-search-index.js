@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mvohm.quadmatrix","l":"BigDecimalMatrix"},{"p":"com.mvohm.quadmatrix","l":"DoubleMatrix"},{"p":"com.mvohm.quadmatrix","l":"Matrix"},{"p":"com.mvohm.quadmatrix","l":"QuadrupleMatrix"}];updateSearchResults();

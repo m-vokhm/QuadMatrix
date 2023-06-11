@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -encoding UTF-8" author="true" 
+        	classpath="C:\Users\misa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;
+             target/test-classes;
+             C:\Users\misa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;
+             C:\Users\misa\.m2\repository\org\openjdk\jmh\jmh-core\1.29\jmh-core-1.29.jar;
+             C:\Users\misa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;
+             C:\Users\misa\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;
+             C:\Users\misa\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;
+             C:\Users\misa\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;
+             C:\Users\misa\.m2\repository\gov\nist\math\jama\1.0.3\jama-1.0.3.jar;
+             C:\Users\misa\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;
+             C:\Users\misa\.m2\repository\com\mvohm\quadruple\Quadruple\1.1.0\Quadruple-1.1.0.jar" 
+        	destdir="doc" 
+        	doctitle="com.mvohm.quadmatrix package documentation" 
+        	nodeprecated="false" 
+        	nodeprecatedlist="false" 
+        	noindex="false" 
+        	nonavbar="false" 
+        	notree="false" 
+        	source="17" 
+        	sourcefiles="src/main/java/com/mvohm/quadmatrix/QuadrupleMatrix.java,
+            src/main/java/com/mvohm/quadmatrix/Matrix.java,
+            src/main/java/com/mvohm/quadmatrix/BigDecimalMatrix.java,
+            src/main/java/com/mvohm/quadmatrix/package-info.java,
+            src/main/java/com/mvohm/quadmatrix/DoubleMatrixSolver.java,
+            src/main/java/com/mvohm/quadmatrix/MatrixSolver.java,
+            src/main/java/com/mvohm/quadmatrix/DoubleMatrix.java" 
+         sourcepath="src/main/java" 
+         splitindex="false" use="false" version="true">
+          <link href="https://m-vokhm.github.io/Quadruple/src/main/javadoc/"/>
+        </javadoc>
+           <!-- sourcepath="src/main/java;src/test/java" --> 
+    </target>
+</project>
