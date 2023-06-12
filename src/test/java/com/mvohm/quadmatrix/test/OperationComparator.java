@@ -95,12 +95,12 @@ public class OperationComparator {
     return accumulatedMseTwo / trialCount;
   }
 
-  double getAverageMaxErrOne() {
-    return accumulatedMaxErrOne / trialCount;
+  double getAccumulatedMaxErrOne() {
+    return accumulatedMaxErrOne;
   }
 
-  double getAverageMaxErrTwo() {
-    return accumulatedMaxErrTwo / trialCount;
+  double getAccumulatedMaxErrTwo() {
+    return accumulatedMaxErrTwo;
   }
 
   double getAverageMseImprovementRatio() {
@@ -134,7 +134,7 @@ public class OperationComparator {
         getAverageMseOne(), getAverageMseTwo(), getAverageMseOne() / getAverageMseTwo());
 
     say("avr maxErr1 = %11.3e, avr maxErr2 = %11.3e, ratio = %7.3f",
-        getAverageMaxErrOne(), getAverageMaxErrTwo(), getAverageMaxErrOne() / getAverageMaxErrTwo());
+        getAccumulatedMaxErrOne(), getAccumulatedMaxErrTwo(), getAccumulatedMaxErrOne() / getAccumulatedMaxErrTwo());
     say("Matrix size = %7s", matrixData.getSize());
     say("avr time1   = %7.3f  ms, avr time2   = %7.3f  ms, ratio = %7.3f",
         getAverageTimeOneMs(), getAverageTimeTwoMs(), getAverageTimeTwoMs() / getAverageTimeOneMs() );
