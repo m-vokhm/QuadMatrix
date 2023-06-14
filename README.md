@@ -1,16 +1,13 @@
 
 
 # QuadMatrix
-## A simple library for matrix calculations with different levels of precision.
+## A simple library for high-precision matrix calculations
 
 
-**QuadMatrix** is a simple library for matrix calculations on square matrices of real numbers, 
-with different levels of precision. It includes the following public classes:
+**QuadMatrix** is a simple library for matrix calculations on square matrices of real numbers consisting of three matrix classes providing different levels of precision at the cost of significantly different performance. It includes the following public classes:
 
--   **Matrix**  -- a generic abstract class which defines the set of operations that all 
-its subclasses must implement;
--   **DoubleMatrix**  -- a subclass of the Matrix that stores the matrix data and implements 
-operations on them using standard Java primitive  `double`  type;
+-   **Matrix**  -- a generic abstract class which defines the set of operations that all its subclasses must implement;
+-   **DoubleMatrix**  -- a subclass of the Matrix that stores the matrix data and implements operations on them using standard Java primitive `double` type, in most cases provides usual for `double`s precision of about 14-15 decimal digits;
 -   **BigDecimalMatrix**  -- a subclass of the Matrix that stores the matrix data and implements 
 operations on them using the standard `BigDecimal`  class, which allows to gain (theoretically) unlimited precision;
 -   **QuadrupleMatrix**  -- a subclass of the Matrix that stores the matrix data and implements 
